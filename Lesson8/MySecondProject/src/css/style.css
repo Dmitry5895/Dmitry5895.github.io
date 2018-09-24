@@ -1,0 +1,21 @@
+.font {
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 132px;
+	color: #333333;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.box {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.privilege {
+	height: 120px;
+}
+
+.font-privilege {
+	margin-top: 10px;
+	color: #333333;
+}
