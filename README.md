@@ -17,5 +17,5 @@
 
 [Урок 13 Практика часть 1](https://dmitry5895.github.io/Lesson13/MyFirstSite/src/ "Шапка сайта") - Шапка сайта
 
-[Урок 14](https://dmitry5895.github.io/Lesson14/АРХИВ%20С%20ДЗ%20(14%20УРОК)/fonts-viewer/ "Подключение шрифтов") - Подключение шрифтов
+[Урок 14](https://dmitry5895.github.io/Lesson14/Lesson14/fonts-viewer/ "Подключение шрифтов") - Подключение шрифтов
 
