@@ -19,4 +19,4 @@
 
 [Урок 14](https://dmitry5895.github.io/Lesson14/Lesson14/fonts-viewer/ "Подключение шрифтов") - Подключение шрифтов
 
-[Практика часть 2](https://dmitry5895.github.io/Lesson13/MyFirstSite/src/ "Шапка сайта") - Шапка сайта
+[Практика часть 2](https://dmitry5895.github.io/Lesson15/MyFirstSite/src/ "Вёрстка шапки") - Завершение вёрстки шапки
