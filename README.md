@@ -15,7 +15,8 @@
 
 [Урок 12](https://dmitry5895.github.io/MyFourthProject/src/Lesson12/MyFourthProject/src/ "Форма в стиле Pixel Perfect") - Форма в стиле Pixel Perfect
 
-[Урок 13 Практика часть 1](https://dmitry5895.github.io/Lesson13/MyFirstSite/src/ "Шапка сайта") - Шапка сайта
+[Практика часть 1](https://dmitry5895.github.io/Lesson13/MyFirstSite/src/ "Шапка сайта") - Шапка сайта
 
 [Урок 14](https://dmitry5895.github.io/Lesson14/Lesson14/fonts-viewer/ "Подключение шрифтов") - Подключение шрифтов
 
+[Практика часть 2](https://dmitry5895.github.io/Lesson13/MyFirstSite/src/ "Шапка сайта") - Шапка сайта
