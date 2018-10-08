@@ -19,6 +19,8 @@ html {
   font-size: 10px;
 }
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'ProximaNova_reg' sans-serif;
 }
 a:hover {
@@ -188,9 +190,6 @@ section {
   }
   .header {
     text-align: center;
-  }
-  h1 {
-    font-size: 8rem;
   }
   .wrap-block {
     text-align: center;
