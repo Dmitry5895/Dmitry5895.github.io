@@ -25,4 +25,4 @@
 
 [Практика часть 3](https://dmitry5895.github.io/Lesson15/MyFirstSite/src/ "Адаптивность шапки") - Адаптивность шапки
 
-[Урок 16](https://dmitry5895.github.io/Lesson16/Hover/ "Создание слайда") - Создание слайда
+[Урок 16](https://dmitry5895.github.io/Lesson17/Slide/src/ "Создание слайда") - Создание слайда
