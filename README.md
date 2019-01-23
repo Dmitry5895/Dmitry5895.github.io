@@ -26,3 +26,5 @@
 [Практика часть 3](https://dmitry5895.github.io/Lesson15/MyFirstSite/src/ "Адаптивность шапки") - Адаптивность шапки
 
 [Урок 16](https://dmitry5895.github.io/Lesson17/Slide/src/ "Создание слайда") - Создание слайда
+
+[Практика часть 4](https://dmitry5895.github.io/Lesson18/MyFirstSite/src/ "Блок с преимуществами") - Блок с преимуществами
