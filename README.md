@@ -28,3 +28,5 @@
 [Урок 16](https://dmitry5895.github.io/Lesson17/Slide/src/ "Создание слайда") - Создание слайда
 
 [Практика часть 4](https://dmitry5895.github.io/Lesson18/MyFirstSite/src/ "Блок с преимуществами") - Блок с преимуществами
+
+[Практика часть 5](https://dmitry5895.github.io/Lesson19/MyFirstSite/src/ "Модальное окно") - Модальное окно
