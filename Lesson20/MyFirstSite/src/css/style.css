@@ -1,0 +1,395 @@
+/* Fonts family */
+@font-face {
+  font-family: 'ProximaNova_bold';
+  src: url('../fonts/ProximaNova-Bold.eot');
+  src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Bold.woff2') format('woff2'), url('../fonts/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold.ttf') format('truetype'), url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova_reg';
+  src: url('../fonts/ProximaNova-Regular.eot');
+  src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff2') format('woff2'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('../fonts/ProximaNova-Regular.ttf') format('truetype'), url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Цвет*/
+/* Basic setting */
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'ProximaNova_reg' sans-serif;
+}
+a:hover {
+  text-decoration: none;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+.button {
+  border-radius: 8px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  width: 25rem;
+  height: 5rem;
+  border: none;
+  background-color: #f7ae01;
+  color: #ffffff;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #d99901;
+}
+/* Оформление */
+section {
+  padding: 10rem 0;
+}
+.section-header {
+  margin: 2rem 0 10rem;
+  text-align: center;
+}
+.section-header_light {
+  color: #ffffff;
+}
+.section-header h2 {
+  font-family: 'ProximaNova_bold' sans-serif;
+  font-size: 3.6rem;
+}
+.section-header p {
+  font-size: 1.4rem;
+}
+/* main */
+.main {
+  background: #ffffff url(../img/bg.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 1.5rem 0 9rem;
+  /* Главная форма*/
+}
+.main-content {
+  margin-top: 8rem;
+  /* Главный заголовок */
+}
+.main-content h1 {
+  margin-top: 0;
+  margin-bottom: 3.5rem;
+  font-family: 'ProximaNova_bold' sans-serif;
+  font-size: 3.4rem;
+  line-height: 1.45;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.main-subtitle {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+}
+.main span {
+  display: inline-block;
+  padding: 2.5rem 3.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ffffff;
+  background-color: #70c849;
+}
+.main span strong {
+  font-size: 3rem;
+  font-family: 'ProximaNova_bold' sans-serif;
+}
+.main-trigger {
+  margin-top: 2.5rem;
+  display: block;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-family: 'ProximaNova_bold' sans-serif;
+}
+.main-form {
+  margin-top: 0;
+  padding: 1rem 5rem;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #dddddd;
+  /* Заголовок формы */
+  /* Поле для ввода */
+  /* Подписи к полям */
+  /* Кнопка отправить заявку */
+  /* Подпись под кнопкой */
+}
+.main-form-header {
+  margin-bottom: 4rem;
+  font-size: 1.7rem;
+}
+.main-form-header strong {
+  font-size: 1.4rem;
+}
+.main-form-input {
+  display: block;
+  width: 100%;
+  padding: 1.3rem 0;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin: 2.5rem 0rem;
+}
+.main-form label {
+  position: absolute;
+  display: inline-block;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  background-color: #ffffff;
+}
+.main-form-btn {
+  display: block;
+  height: 5.8rem;
+  width: 100%;
+  font-size: 1.4rem;
+}
+.main-form small {
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+}
+.header {
+  height: 7rem;
+}
+.wrap {
+  display: table;
+  width: 100%;
+  height: 7rem;
+}
+.wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.phone-block {
+  text-align: right;
+}
+.phone-link {
+  display: inline-block;
+  font-family: 'ProximaNova_bold' sans-serif;
+  font-weight: 900;
+  font-size: 1.7rem;
+  height: 7rem;
+  line-height: 7rem;
+  color: #1a1820;
+}
+@media (max-width: 1091px) {
+  .wrap {
+    margin-left: 3.5rem;
+  }
+}
+/* Оформление секции с преимущетвами */
+.features-block {
+  text-align: center;
+}
+.features-block h3 {
+  font-family: 'ProximaNova_bold' sans-serif;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+}
+.features-img {
+  height: 8rem;
+  margin-bottom: 3rem;
+}
+.features-img img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-active {
+  outline: none;
+}
+.arrow {
+  top: 40%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+}
+.prev {
+  left: 0;
+  background: url(../img/left-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+.next {
+  right: 0;
+  background: url(../img/right-arrow.svg) center no-repeat;
+  background-size: 70%;
+}
+/*Секция с ценами*/
+.price {
+  background: #70c849 url(../img/prices/prices-bg.jpg) center;
+  /* Карточки с тарифами */
+}
+.price-header-btn {
+  margin-top: 2.5rem;
+}
+.price-button {
+  text-align: right;
+}
+.price-block {
+  padding: 1rem 3rem 4rem;
+  min-height: 50rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+          box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+  text-align: center;
+}
+.price-block h4 {
+  margin: 3rem 0;
+  font-size: 1.8rem;
+  font-family: 'ProximaNova_bold' sans-serif;
+  font-weight: 600;
+}
+.price-block img {
+  display: inline-block;
+  width: 100%;
+  min-height: 230px;
+  margin-bottom: 2rem;
+}
+.price-tag {
+  display: block;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-family: 'ProximaNova_bold' sans-serif;
+  font-weight: 600;
+}
+.price-list {
+  padding: 0;
+  list-style: none;
+  min-height: 14rem;
+  line-height: 1.6rem;
+  font-size: 1.5rem;
+}
+.price-list li {
+  padding: 0.5rem;
+}
+.price-list li:before {
+  content: '';
+  display: inline-block;
+  margin-right: 1rem;
+  width: 1.4rem;
+  height: 1.4rem;
+  background: url(../img/prices/check.svg) no-repeat center;
+  background-size: 100%;
+  vertical-align: middle;
+}
+/*Оформление модальных окон*/
+.popup {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup-content {
+  position: fixed;
+  left: 50%;
+  top: 10%;
+  background-color: #ffffff;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 4rem 6rem;
+}
+.popup-form {
+  margin-top: 3rem;
+  padding: 0;
+  border: none;
+}
+.popup-close {
+  position: absolute;
+  top: -1.4rem;
+  right: -2rem;
+  width: 2rem;
+  border: none;
+  background-color: transparent;
+  font-size: 3rem;
+  text-align: center;
+  color: #ffffff;
+}
+.popup-content {
+  text-align: center;
+}
+.popup-header {
+  font-family: 'ProximaNova_bold' sans-serif;
+  font-weight: 600;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: top right;
+  }
+  .phone-block {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3.5rem;
+  }
+  .main-title {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: scaleY(-50%);
+            transform: scaleY(-50%);
+  }
+  .price-button {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .price-header-btn {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  .price-block {
+    margin-top: 2rem;
+  }
+  .section-header_light {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 764px) {
+  .main {
+    background-position: top left;
+  }
+  .header {
+    text-align: center;
+  }
+  .wrap-block {
+    text-align: center;
+  }
+  .button {
+    margin-right: 2rem;
+  }
+  .main-form-input {
+    width: 100%;
+    height: 6.5rem;
+  }
+  .main-form-btn {
+    width: 100%;
+    height: 8rem;
+    font-size: 2rem;
+  }
+}
