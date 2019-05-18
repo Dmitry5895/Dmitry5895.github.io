@@ -32,3 +32,5 @@
 [Практика часть 5](https://dmitry5895.github.io/Lesson19/MyFirstSite/src/ "Модальное окно") - Модальное окно
 
 [Практика часть 6](https://dmitry5895.github.io/Lesson20/MyFirstSite/src/ "Блок с ценами") - Блок с ценами
+
+[Практика часть 7](https://dmitry5895.github.io/Lesson21/MyFirstSite/src/ "Блок с отзывами") - Блок с отзывами
